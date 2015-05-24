@@ -1,0 +1,18 @@
+.title{
+	font: 12pt sans-serif;
+	color: green;
+}
+		
+div.div{
+	padding: 1em;
+	border: 0.1em solid yellow;
+	border-radius: 2em;
+	text-align: center;
+}
+
+div.php{
+	padding: 1em;
+	border: 0.1em solid green;
+	border-radius: 2em;
+	text-align: center;
+}
