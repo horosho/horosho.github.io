@@ -24,3 +24,11 @@ div{
 	border-radius: 2em;
 	text-align: center;
 }
+
+/*  class="special" */
+.special{
+	padding: 1em;
+	border: 0.1em solid green;
+	border-radius: 2em;
+	text-align: center;
+}
