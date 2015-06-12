@@ -4,16 +4,19 @@
 	<meta charset="utf-8">
 	<title>Хорошо:)</title>
 	
-	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 	<!-- <script src="js/jquery.js"></script> -->
-	<script src="js/general.js"></script>
+	<script src="http://viktar.comli.com/horosho/jsJQuery/general.js"></script>
 	
-	<link rel="stylesheet" href="css/general.css">
+	<!-- <script src="js/general.js"></script> -->
+	<!-- <script>include(url="http://viktar.comli.com/horosho/jsJQuery/general.js");</script> -->
+	
+	<link rel="stylesheet" href="http://horosho.github.io/css/general.css">
 </head>
 
 <body>
 <!-- yandex calendar -->
-<div class="div">
+<div>
 	<iframe src="https://calendar.yandex.ru/week?embed&layer_ids=2149758&tz_id=Europe/Minsk" width="800" height="1050" frameborder="0" style="border: 1px solid #eee"></iframe>
 	<br>
 	<a href="https://calendar.yandex.ru/week?uid=317749995" target="blank">добавить событие в яндекс календарь (login: horosho-site@yandex.ru; password: horosho123)</a>
@@ -21,15 +24,27 @@
 </div> 
 
 <!-- i want -->
-<div class="div">
+<div>
 	<iframe src="http://viktar.comli.com/events/horosho/index.html" height="400em" width="100%" frameborder="no"></iframe>
 </div>
 
 <!-- my contacts -->
-<div class="div">
+<div>
 	Мои контактные данные <a href="http://viktarian.github.io/" target="blank">тут</a>.
 </div> 
 
+<!-- link -->
+<div>
+	Набирайте в гите git clone https://github.com/horosho/horosho.github.io.git, и почти все файлы сайта будут у вас. Или просто <a href="https://github.com/horosho/horosho.github.io.git" target="blank">качайте</a>.
+</div> 
+
+<div class="test" id="test">
+	Блок для тестов<br>
+	
+</div>
+<script>
+	ajaxWithData(url='http://www.tut.by/',result_id='#test',data='test');
+</script>
 
 
 
