@@ -1,0 +1,1 @@
+<a href="http://e-dostavka.by/" target="blank">ЕВРООПТ</a><br>
