@@ -32,3 +32,10 @@ div{
 	border-radius: 2em;
 	text-align: center;
 }
+
+.leftText{
+	text-align: left;
+}
+.textRed{
+	color: red;
+}
